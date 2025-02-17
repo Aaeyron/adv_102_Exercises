@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, Button, Pressable } from "react-native"
+import { View, Text, StyleSheet, Button, Pressable, Image } from "react-native"
 import { Link } from "expo-router"
 
 export default function Home() {
@@ -9,6 +9,7 @@ export default function Home() {
             Christian Jay J. Lina
             </Text>
         </View>
+        
     )
 }
 

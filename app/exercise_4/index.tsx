@@ -3,10 +3,10 @@ import { Text, View, StyleSheet } from "react-native";
 export default function exerciseHome(){
 
     const Links = [
-        {to: "/useState/state" as const,
+        {to: "/exercise_4/useState/state" as const,
          name: "UseState screen"},
 
-        {to: "/useEffect/useEffect" as const,
+        {to: "/exercise_4/useEffect/useEffect" as const,
          name: "UseEffect screen"},
     ]
 
