@@ -7,7 +7,7 @@ export default function Exercise() {
         { title: "Exercise 3", description: "<p>Create login screen<br>Login screen fields:<ul><li>Email</li><li>Password</li></ul></p>" },
         { title: "Exercise 4", description: "<p>useState/useEffect</p>" },
         { title: "Exercise 5", description: "<p>Register Here!</p>" },
-        { title: "Exercise 6", description: "<p>Some other description</p>" },
+        { title: "Exercise 6", description: "<p>A simple CRUD user management system" },
         { title: "Exercise 7", description: "<p>Some other description</p>" },
     ];
 
@@ -19,7 +19,6 @@ export default function Exercise() {
                     style={styles.card}
                     onPress={() => {
                         if (index === 0) {
-
                             router.push("/exercise_3");
                         }
                         else if (index === 1) {
@@ -28,10 +27,12 @@ export default function Exercise() {
                         else if (index === 2) {
                             router.push("/exercise_5");
                         }
+                        else if (index === 3) {
+                            router.push("/exercise_6")
+                        }
                         else {
                             undefined
                         }
-
                         
                     }}
                 >
