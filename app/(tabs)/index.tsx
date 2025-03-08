@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <View style={styles.container}>
             <Text style={styles.text}>
-            Christian Jay J. Lina
+            Aaron Seth Nagtalon
             </Text>
         </View>
         
