@@ -7,8 +7,10 @@ export default function Exercise() {
         { title: "Exercise 3", description: "<p>Create login screen<br>Login screen fields:<ul><li>Email</li><li>Password</li></ul></p>" },
         { title: "Exercise 4", description: "<p>useState/useEffect</p>" },
         { title: "Exercise 5", description: "<p>Register Here!</p>" },
-        { title: "Exercise 6", description: "<p>A simple CRUD user management system" },
+        { title: "Exercise 6", description: "<p>A simple CRUD user management system</p>" },
         { title: "Exercise 7", description: "<p>Basic Quiz App with the use of API</p>" },
+        { title: "Exercise 8", description: "<p>Using React Hook Form, add appropriate validations for the registration and login page</p>" },
+        { title: "Exercise 9", description: "<p>Connect to Firebase with authentication and storage to allow user profile image upload</p>" },
     ];
 
     return (
@@ -28,13 +30,17 @@ export default function Exercise() {
                             router.push("/exercise_5");
                         }
                         else if (index === 3) {
-                            router.push("/exercise_6")
+                            router.push("/exercise_6");
                         }
                         else if (index === 4){
-                            router.push("/exercise_7")
+                            router.push("/exercise_7");
                         }
-                        else {
-                            undefined
+                        else if (index === 5) { 
+                            router.push("/exercise_8"); 
+                        }
+                        else if (index === 6) {
+                            router.push("/exercise_9");
+
                         }
                         
                     }}
